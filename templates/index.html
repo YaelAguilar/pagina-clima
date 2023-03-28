@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Clima</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Temperatura °C</th>
+                    <th>Humedad %</th>
+                    <th>Presión atm</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for registro in registros %}
+                <tr>
+                  <td>{{ registro[0] }}</td>
+                  <td>{{ registro[1] }}</td>
+                  <td>{{ registro[2] }}</td>
+                  <td>{{ registro[3] }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

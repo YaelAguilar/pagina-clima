@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: radial-gradient(circle at 63.46% -0.24%, #ffe5d1 0, #fce7d0 3.85%, #f9e8cf 7.69%, #f5e9cf 11.54%, #f1eacf 15.38%, #edecd0 19.23%, #e8edd1 23.08%, #e4eed3 26.92%, #dfefd5 30.77%, #dbf0d8 34.62%, #d7f0db 38.46%, #d3f1df 42.31%, #d0f2e2 46.15%, #cdf2e6 50%, #cbf2ea 53.85%, #c9f2ee 57.69%, #c8f2f2 61.54%, #c7f2f5 65.38%, #c7f1f9 69.23%, #c8f1fc 73.08%, #caf0ff 76.92%, #cdefff 80.77%, #d0eeff 84.62%, #d3edff 88.46%, #d7ecff 92.31%, #dcebff 96.15%, #e0eaff 100%);
+    
+  }
+  
+  .container {
+    border: solid 1px rgb(255, 255, 255, 0.2);
+  
+  }
+  
+  table {
+    color: #fff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+  
+  }
+  
+  thead {
+    background: rgb(243, 140, 210, 0.4);
+  
+  }
+  
+  th {
+    color: black;
+    padding: 20px 15px;
+    font-weight: 700;
+    text-align: center;
+  
+  }
+  
+  td {
+    color: black;
+    padding: 15px;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.2);
+  
+  }
+  
+  tbody tr {
+    cursor: pointer;
+  
+  }
+  
+  tbody tr:hover {
+    background: rgba(243, 103, 199, 0.4);
+    
+  }
